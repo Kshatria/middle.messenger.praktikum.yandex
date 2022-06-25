@@ -25,7 +25,7 @@
     "parcel-transformer-hbs": "^1.0.4",
     "sass": "^1.52.3"
   },
-  "engines": {
+  "engine": {
     "node": ">=16.14.2",
     "npm": ">=8.5.0"
   },
