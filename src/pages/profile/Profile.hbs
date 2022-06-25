@@ -1,0 +1,20 @@
+<section class="pageProfile">
+    <div class="pageProfile__wrapper">
+        <div class="pageProfile__avatar">{{{avatar}}}</div>
+        <div class="pageProfile__nik">{{profileName}}</div>
+        <div class="pageProfile__container">
+            <ul class="pageProfile__list">
+                {{#each fields}}
+                    <li class="pageProfile__item">
+                        <span>{{name}}</span>
+                        <span>{{value}}</span>
+                    </li>
+                {{/each}}
+            </ul>
+            <div class="pageProfile__link">{{{linkProfile}}}</div>
+            <div class="pageProfile__link">{{{linkPassword}}}</div>
+            <div class="pageProfile__signout"> {{{signout}}}</div>
+        </div>
+    </div>
+    {{{linkReturn}}}
+</section>

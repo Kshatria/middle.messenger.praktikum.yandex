@@ -1,0 +1,61 @@
+.avatar {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background-color: #EFEFEF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+
+        .avatar__btn {
+            transform: translateY(0);
+            transition: .3s;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__btn {
+        background-color: rgba(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transform: translateY(100%);
+        transition: .3s;
+
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 14px;
+            text-align: center;
+            color: #FFFFFF;
+            max-width: 100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
