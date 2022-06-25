@@ -1,5 +1,5 @@
 import Handlebars from 'handlebars';
-import changePassword from './changePassword.hbs';
+import changePassword from './ChangePassword.hbs';
 import avatar from '../../components/avatar/Avatar.hbs';
 import input from '../../components/input/Input.hbs';
 import button from '../../components/button/Button.hbs';
