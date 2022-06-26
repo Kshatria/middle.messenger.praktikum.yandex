@@ -1,0 +1,16 @@
+{
+    "file": {
+        "name": "file",
+        "label": "Выбрать файл на компьтере",
+        "placeholder": "",
+        "type": "file",
+        "value": "",
+        "id": "file"
+    },
+    "title": "Загрузите файл",
+    "buttonSubmit": {
+        "className": "popup__submit",
+        "id": "",
+        "value": "Поменять",
+    }
+}

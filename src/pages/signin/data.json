@@ -1,0 +1,29 @@
+{
+    "login": {
+        "name": "login",
+        "label": "Логин",
+        "placeholder": "",
+        "type": "text",
+        "id": "login"
+    },
+
+    "password": {
+        "name": "password",
+        "label": "Пароль",
+        "placeholder": "",
+        "type": "password",
+        "id": "password"
+    },
+
+    "button": {
+        "id": "signinSubmit",
+        "value": "Авторизоваться",
+        "className": "signup__submit submit"
+    },
+
+    "link": {
+        "text": "Нет аккаунта?",
+        "href": "/signup",
+        "className": "signin__link"
+    }
+}

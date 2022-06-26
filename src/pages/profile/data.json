@@ -1,0 +1,48 @@
+{
+    "fields": [
+        {
+            "name": "Почта",
+            "value": "pochta@yandex.ru"
+        },
+        {
+            "name": "Логин",
+            "value": "ivanivanov"
+        },
+        {
+            "name": "Имя",
+            "value": "Иван"
+        },
+        {
+            "name": "Фамилия",
+            "value": "Иванов"
+        },
+        {
+            "name": "Имя в чате",
+            "value": "Иванов"
+        },
+        {
+            "name": "Телефон",
+            "value": "+7 (909) 967 30 30"
+        }
+    ],
+    "linkProfile": {
+        "text": "Изменить данные",
+        "href": "/editProfile"
+    },
+    "linkPassword": {
+        "text": "Изменить пароль",
+        "href": "/changePassword",
+    },
+    "signout": {
+        "text": "Выйти",
+        "href": "/signin",
+    },
+    "profileName": {
+        "name": "Иван"
+    },
+    "linkReturn": {
+        "className": "pageProfile__return",
+        "text": "",
+        "href": "/chat"
+    }
+}

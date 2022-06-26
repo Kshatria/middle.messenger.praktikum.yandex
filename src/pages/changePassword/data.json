@@ -1,0 +1,36 @@
+{
+    "oldPass": {
+        "name": "oldPass",
+        "label": "Старый пароль",
+        "placeholder": "Введите старый пароль",
+        "type": "password",
+        "value": "",
+        "id": "oldPass"
+    },
+    "newPass": {
+        "name": "newPass",
+        "label": "Новый пароль",
+        "placeholder": "Введите новый пароль",
+        "type": "password",
+        "value": "",
+        "id": "newPass"
+    },
+    "repeatPass": {
+        "name": "repeatPass",
+        "label": "Повторите новый пароль",
+        "placeholder": "Введите новый пароль",
+        "type": "password",
+        "value": "",
+        "id": "repeatPass"
+    },
+    "buttonSubmit": {
+        "className": "changePassword__submit submit",
+        "id": "",
+        "value": "Сохранить"
+    },
+    "linkReturn": {
+        "className": "changePassword__return",
+        "text": "",
+        "href": "/profile"
+    }
+}

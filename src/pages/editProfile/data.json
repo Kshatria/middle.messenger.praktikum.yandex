@@ -1,0 +1,60 @@
+{
+    "email": {
+        "name": "email",
+        "label": "Почта",
+        "placeholder": "Введите почту",
+        "type": "email",
+        "value": "pochta@yandex.ru",
+        "id": "email"
+    },
+    "login": {
+        "name": "login",
+        "label": "Логин",
+        "placeholder": "Введите Логин",
+        "type": "text",
+        "value": "ivanivanov",
+        "id": "login"
+    },
+    "firstName": {
+        "name": "first_name",
+        "label": "Имя",
+        "placeholder": "Введите имя",
+        "type": "text",
+        "value": "Иван",
+        "id": "firstName"
+    },
+    "lastName": {
+        "name": "last_name",
+        "label": "Фамилия",
+        "placeholder": "Введите фамилию",
+        "type": "text",
+        "value": "Иванов",
+        "id": "lastName"
+    },
+    "nik": {
+        "name": "nik",
+        "label": "Имя в чате",
+        "placeholder": "Введите имя в чате",
+        "type": "text",
+        "value": "Иван",
+        "id": "nik"
+    },
+    "phone": {
+        "name": "phone",
+        "label": "Телефон",
+        "placeholder": "Введите телефон",
+        "type": "tel",
+        "value": "+7 (909) 967 30 30",
+        "id": "phone"
+    },
+    "buttonSubmit": {
+        "className": "editProfile__submit submit",
+        "id": "",
+        "value": "Сохранить",
+    },
+    "linkReturn": {
+        "className": "editProfile__return",
+        "text": "",
+        "href": "/profile"
+    }
+}

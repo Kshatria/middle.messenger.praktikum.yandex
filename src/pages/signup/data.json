@@ -1,0 +1,61 @@
+{
+    "email": {
+        "name": "email",
+        "label": "Почта",
+        "placeholder": "",
+        "type": "email",
+        "id": "email"
+    },
+    "login": {
+        "name": "login",
+        "label": "Логин",
+        "placeholder": "",
+        "type": "text",
+        "id": "login"
+    },
+    "firstName": {
+        "name": "firstName",
+        "label": "Имя",
+        "placeholder": "",
+        "type": "text",
+        "id": "firstName"
+    },
+    "lastName": {
+        "name": "lastName",
+        "label": "Фамилия",
+        "placeholder": "",
+        "type": "text",
+        "id": "lastName"
+    },
+    "phone": {
+        "name": "telephone",
+        "label": "Телефон",
+        "placeholder": "",
+        "type": "tel",
+        "id": "phone"
+    },
+    "password": {
+        "name": "password",
+        "label": "Пароль",
+        "placeholder": "",
+        "type": "password",
+        "id": "password"
+    },
+    "passwordRepeat": {
+        "name": "passwordRepeat",
+        "label": "Пароль (еще раз)",
+        "placeholder": "",
+        "type": "password",
+        "id": "passwordRepeat"
+    },
+    "button": {
+        "id": "signupSubmit",
+        "value": "Зарегистрироваться",
+        "className": "signup__submit submit"
+    },
+    "link": {
+        "text": "Войти",
+        "href": "/signin",
+        "className": "signup__link"
+    }
+}

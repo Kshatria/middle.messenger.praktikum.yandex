@@ -8,27 +8,24 @@ import changePassword from './pages/changePassword/changePassword';
 import chats from './pages/chats/chats';
 
 import popup from './components/popup/popup';
+import showPopup from './components/popup/eventHandler';
 
 import sriptForCustomFile from './util/file';
-import avatarEventHandler from './util/avatar';
-import inputValidationHandler from './util/validation';
 
 function insertPage(page) {
     const main = document.querySelector('#app');
-    main.insertAdjacentHTML('beforeend', page);
+    if (main) {
+        main.insertAdjacentHTML('beforeend', page);
+    }
 }
 
 function route() {
     switch (window.location.pathname) {
         case '/signin':
             insertPage(signin());
-
-            inputValidationHandler();
             break;
         case '/signup':
             insertPage(signup());
-
-            inputValidationHandler();
             break;
         case '/err404':
             insertPage(error('404', 'Не туда попали'));
@@ -39,25 +36,14 @@ function route() {
         case '/profile':
             insertPage(profile());
             insertPage(popup());
-
-            sriptForCustomFile();
-            avatarEventHandler();
             break;
         case '/editProfile':
             insertPage(editProfile());
             insertPage(popup());
-
-            sriptForCustomFile();
-            avatarEventHandler();
-            inputValidationHandler();
             break;
         case '/changePassword':
             insertPage(changePassword());
             insertPage(popup());
-
-            sriptForCustomFile();
-            avatarEventHandler();
-            inputValidationHandler();
             break;
         case '/chats':
             insertPage(chats());
@@ -65,6 +51,14 @@ function route() {
         default:
             insertPage(preview());
     }
-  }
+}
 
-document.addEventListener('DOMContentLoaded', () => route());
+document.addEventListener('DOMContentLoaded', () => {
+    route();
+
+    const avatarBtn = document.querySelector('.avatar__btn');
+    if (avatarBtn) {
+        avatarBtn.addEventListener('click', () => showPopup());
+        sriptForCustomFile();
+    }
+});
